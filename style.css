@@ -56,6 +56,12 @@ nav ul {
     background-image: url('images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: right center;
+    padding-top: 150px;
+    padding-bottom: 170px;
+}
+
+.hero-contents {
+    width: 40%;
 }
 
 .hero h1 {
@@ -77,6 +83,8 @@ nav ul {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .hero button {
@@ -101,6 +109,11 @@ nav ul {
 }
 
 /* Popular Collection */
+.collections {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .collections h2 {
     color: #3A3A3A;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -111,6 +124,7 @@ nav ul {
     line-height: 70px;
     /* 250% */
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .cards {
@@ -193,11 +207,13 @@ h2.see-more {
     font-weight: 700;
     line-height: normal;
     text-align: right;
+    margin-top: 50px;
 }
 
 /* Banner Section */
 .banner {
     gap: 96px;
+    margin-bottom: 100px;
 }
 
 .banner h2 {
@@ -220,6 +236,8 @@ h2.see-more {
     font-weight: 700;
     line-height: 28px;
     /* 175% */
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .banner button {
@@ -276,6 +294,7 @@ footer p {
     background: #ffffff33;
     padding: 10px;
     border-radius: 50%;
+    margin-top: 16px;
 }
 
 /* Mobile Devices */
@@ -290,15 +309,19 @@ footer p {
     }
 
     nav,
+    .hero,
     .logos {
         gap: 32px;
     }
 
     .hero {
         background-position: center bottom;
+        padding-top: 24px;
+        padding-bottom: 40px;
     }
 
     .hero img,
+    .hero-contents,
     .banner img {
         width: 100%;
     }
@@ -328,6 +351,7 @@ footer p {
     }
 
     nav,
+    .hero,
     .banner {
         gap: 32px;
     }
@@ -340,9 +364,17 @@ footer p {
 
     .hero {
         background-position: center bottom;
+        padding-top: 24px;
+        padding-bottom: 40px;
     }
 
+    /* .hero img { */
+    /* justify-self: flex-end; */
+    /* align-items: flex-end; */
+    /* } */
+
     /* .hero img, */
+    .hero-contents,
     .banner img {
         width: 100%;
     }
